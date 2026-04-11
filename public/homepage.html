@@ -15,7 +15,7 @@
             color: #333;
             background: #f4f7fb;
             margin: 0;
-            padding: 40px;
+            padding: 60px;
             text-align: center;
         }
         h1 {
@@ -23,20 +23,57 @@
             margin-bottom: 20px;
         }
         p {
-            font-size: 18px;
+            font-size: 16px;
             opacity: 0.8;
         }
     </style>
-    <table style="width:20%; border:1px solid black; margin: 20px auto; border-collapse: collapse;">
-    <tr> 
-    <td> Function A</td>
-    <td> Function B</td>
-    </tr>
-    <tr>
-    <td> Function C</td>
-    <td> Function D</td>   
-    </tr>
-    </table>
+    <div class="form-group">
+        <input type="text" id="expense-name"
+        placeholder="Expense Name">
+        <input type="number" id="expense-amount"
+        placeholder="Amount">
+        <select id="expense-category">
+            <option value="" disabled selected>Select Category</option>
+            <option value="Food">Food</option>
+            <option value="Transport">Transport</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Utilities">Utilities</option>
+            <option value="Others">Others</option>
+        </select>
+        <input type="date" id="expense-date">
+        <button id="add-expense" disabled> Add Expense</button>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Expenses</th>
+                    <th>Amount</th>
+                    <th>Category</th>
+                    <th>Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="expense-table"></tbody>
+        </table>
+    </div>
+
+    <div class="filter-group">
+        <div>
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Utilities">Utilities</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+    </div>
+
 </body>
 </html>
 
