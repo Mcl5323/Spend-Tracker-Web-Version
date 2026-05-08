@@ -1,3 +1,9 @@
+## 🎥 Project Demo
+
+Want to see the AI in action? Check out the full video demonstration of the smart expense categorization and analysis here:
+
+👉 **[Watch the Demo on YouTube](https://youtu.be/lw3t1BrscJc)**
+
 🤖 AI-Powered Expense Tracker
 A smart, responsive web application to track daily expenses. Originally built as a standard web app, this project has been completely refactored and optimized using Claude and supercharged with local AI integration via Ollama.
 
