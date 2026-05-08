@@ -1,12 +1,18 @@
-Expense Tracker App
-A simple and responsive web application to track daily expenses, built with HTML, CSS, and JavaScript.
+🤖 AI-Powered Expense Tracker
+A smart, responsive web application to track daily expenses. Originally built as a standard web app, this project has been completely refactored and optimized using Claude and supercharged with local AI integration via Ollama.
 
 📌 Project Overview
-This project allows users to:
+This application helps users manage their finances effortlessly by combining traditional tracking features with advanced AI capabilities running locally on your machine.
 
-Add new expenses with a name, amount, category, and date.
+✨ New AI-Powered Features:
+Natural Language Expense Entry: Forget manual form filling! Just type a natural sentence (e.g., "I ate RM20 MCD yesterday"), and the local AI will automatically extract the context to fill in the Date, Category, Amount, and Description for you.
 
-View a dynamic list of all recorded expenses in a table format.
+Smart Financial Analysis: The AI acts as your personal financial advisor. It analyzes your monthly expense data to provide intelligent breakdowns, identify spending trends, and offer actionable insights to help you budget better.
+
+🛠️ Core Features:
+Add manual expense entries with a name, amount, category, and date.
+
+View a dynamic list of all recorded expenses in a clean table format.
 
 Filter expenses by category for better organization.
 
@@ -14,28 +20,29 @@ Edit or delete existing expense entries.
 
 Automatically calculate the total amount of all expenses.
 
-Persist data using Local Storage so the information remains even after refreshing the page.
+Persist data using Local Storage so your information remains safe even after refreshing the page.
 
 🚀 Learning Objectives
-I developed this project as part of my frontend development learning journey. By following and implementing this project, I have strengthened my understanding of:
+I initially developed this project as part of my frontend development journey. By integrating AI and upgrading the codebase, I have strengthened my understanding of:
 
-DOM Manipulation: How to dynamically update the UI using JavaScript.
+AI Integration: Connecting web applications to local LLMs (Ollama) and writing effective prompts for data extraction and analysis.
 
-Event Handling: Capturing user inputs and button clicks.
+AI-Assisted Development: Utilizing AI tools (Claude) to review, refactor, and optimize existing code for better performance and readability.
 
-Local Storage: Storing and retrieving data on the client side.
+Asynchronous JavaScript: Handling API requests and asynchronous data flow for the AI processing.
 
-CSS Layouts: Using Flexbox and media queries to create a responsive design.
+DOM Manipulation & Event Handling: Dynamically updating the UI based on both user inputs and AI-generated responses.
 
-🛠️ Built With
-HTML5: Semantic structure of the web app.
+Local Storage & State Management: Storing user data securely on the client side.
 
-CSS3: Styling and responsive layout.
+💻 Built With
+Frontend: HTML5, CSS3, JavaScript (Vanilla JS)
 
-JavaScript (Vanilla JS): Application logic and data management.
+AI Engine: Ollama (Running locally for privacy-focused NLP and analysis)
+
+Development Assistant: Claude (Code optimization and architecture refinement)
 
 📜 Credits & Reference
-This project was inspired by and built following the tutorial from Codextron on YouTube:
-Build an Expense Tracker with HTML, CSS, and JavaScript.
+Foundation: The initial core functionality (HTML/CSS/JS CRUD operations) was inspired by the tutorial from Codextron on YouTube: Build an Expense Tracker with HTML, CSS, and JavaScript.
 
-I used this project as a practice exercise to improve my coding skills and understand the core concepts of web development.
+Evolution: The project has since evolved significantly from the tutorial, incorporating modern AI capabilities and a refactored architecture to serve as a comprehensive practice exercise in intelligent web development.
